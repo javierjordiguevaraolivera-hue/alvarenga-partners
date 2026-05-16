@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Truly Alvarenga | Moda en Hallandale Beach",
+  title: "Alvarenga | Moda en Hallandale Beach",
   description:
-    "Atelier de moda en Hallandale Beach, Florida. Piezas de ocasion, bridal, evening y custom.",
+    "Boutique de moda femenina en Hallandale Beach, Florida. Novedades, vestidos, blusas, accesorios y citas en tienda.",
 };
 
 export default function RootLayout({
