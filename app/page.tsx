@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const address = "701 N Federal Hwy, Ste 201B, Hallandale Beach, Florida 33009";
-const phone = "786 265 8907";
+const phone = "+1 786 265 8907";
 const email = "info@alvarengapartners.info";
 
 const heroImage =
@@ -57,7 +57,7 @@ const products = [
 ];
 
 export default function Home() {
-  const phoneHref = `tel:+1${phone.replaceAll(" ", "")}`;
+  const phoneHref = `tel:${phone.replaceAll(" ", "")}`;
 
   return (
     <main className="min-h-screen bg-white text-[#151515]">
